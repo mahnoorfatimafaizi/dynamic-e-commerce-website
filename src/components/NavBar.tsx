@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import HeaderIcons from './HeaderIcons';
+import Menu from './Menu';
 
 const NavBar: React.FC = () => {
     return (
@@ -20,7 +21,7 @@ const NavBar: React.FC = () => {
      <span>&#128900;</span>
      <Link href="/pages/contact">Contact</Link>
      </div>
-     {/* <Menu /> */}
+     <Menu />
      <HeaderIcons />
      </div>
      </div>
